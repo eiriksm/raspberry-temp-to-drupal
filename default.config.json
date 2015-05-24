@@ -2,5 +2,6 @@
   "sensor": "28-000005661e87",
   "baseUrl": "https://dev-user-temp.pantheon.io",
   "url": "https://dev-user-temp.pantheon.io/user/1/user_temp_post",
-  "apiKey": "my-api-key"
+  "apiKey": "my-api-key",
+  "interval": 10
 }

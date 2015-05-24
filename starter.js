@@ -15,6 +15,7 @@ function repeater() {
     }
     logger('Node is posted at %s/node/%s', config.baseUrl, body.nid);
     logger('Current temperature: %s', body.value);
+    setTimeout(repeater.bind(null), config.interval * 1000 * 60)
   });
 }
 
