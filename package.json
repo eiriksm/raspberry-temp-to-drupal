@@ -1,7 +1,7 @@
 {
   "name": "temp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Post temperatures from raspberry pi to Drupal",
   "repository": {
     "type": "git",
     "url": "https://github.com/eiriksm/raspberry-temp-to-drupal.git"
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Eirik S. Morland <eirik@morland.no>",
   "license": "WTFPL",
   "dependencies": {
     "ds18b20": "0.0.2",
