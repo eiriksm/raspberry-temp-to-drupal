@@ -14,14 +14,14 @@
   "author": "Eirik S. Morland <eirik@morland.no>",
   "license": "WTFPL",
   "dependencies": {
-    "ds18b20": "0.0.2",
+    "ds18b20": "0.1.0",
     "request": "^2.55.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
-    "eslint": "^0.21.2",
-    "istanbul": "^0.3.14",
+    "eslint": "^1.10.3",
+    "istanbul": "^0.4.1",
     "mocha": "^2.2.5",
-    "should": "^6.0.3"
+    "should": "^8.0.2"
   }
 }
