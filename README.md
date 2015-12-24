@@ -17,7 +17,7 @@ sudo modprobe w1-gpio
 sudo modprobe w1-therm
 ```
 
-If you have no idea what any of these things mean you can probably find better results by googling it than reading here. [Here is on article on the subject, which also includes the needed wiring](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/hardware).
+If you have no idea what any of these things mean you can probably find better results by googling it than reading here. [Here is one article on the subject, which also includes the needed wiring](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/hardware).
 
 The code uses nodejs to sense the temperature and also send the data, so you would also need that. I am pretty sure some googling will reveal good guides on that too.
 
