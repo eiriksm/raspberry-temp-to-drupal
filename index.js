@@ -1,3 +1,4 @@
+'use strict';
 var request = require('request');
 
 function sense(ds18b20, config, callback) {
@@ -16,11 +17,11 @@ function sense(ds18b20, config, callback) {
         temp: value
       },
       json: true
-    }, function(err, res, body) {
+    }, function(requestError, res, body) {
       // For convenience, add the value into the body.
       body = body || {};
       body.value = value;
-      callback(err, res, body);
+      callback(requestError, res, body);
     });
   });
 }

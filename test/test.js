@@ -1,3 +1,4 @@
+'use strict';
 var http = require('http');
 
 var should = require('should');
@@ -7,7 +8,7 @@ var config = {
   url: 'http://localhost:7777',
   apiKey: 'abc',
   sensor: Math.random() * 888
-}
+};
 
 var temperature = Math.random() * 100;
 
@@ -17,7 +18,7 @@ var mockTemp = {
     calledWithSensor = sensor;
     callback(null, temperature);
   }
-}
+};
 
 var nid = Math.random() * 10;
 
