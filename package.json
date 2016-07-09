@@ -15,7 +15,7 @@
   "license": "WTFPL",
   "dependencies": {
     "ds18b20": "0.1.0",
-    "request": "^2.55.0"
+    "request": "^2.73.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
